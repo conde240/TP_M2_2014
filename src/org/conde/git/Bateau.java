@@ -2,6 +2,8 @@ package org.conde.git;
 
 import java.util.List;
 
+import org.conde.git.util.Statut;
+
 
 public class Bateau{
 	
@@ -26,6 +28,7 @@ public class Bateau{
 		this.tonnage = tonnage;
 	}
 	
+	private Statut statut;
 	
 	
 	
