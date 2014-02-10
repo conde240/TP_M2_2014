@@ -5,7 +5,7 @@ public class Bateau{
 	
 	private String nom;
 	private int tonnage;
-	
+	private long id;
 	
 	 
 	
