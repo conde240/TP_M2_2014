@@ -11,6 +11,8 @@ public class Bateau{
 	private int tonnage;
 	
 	private List<Bateau> equipage;
+	
+	private Statut statut;
 
 	public String getNom() {
 		return nom;
@@ -28,11 +30,9 @@ public class Bateau{
 		this.tonnage = tonnage;
 	}
 	
-	private Statut statut;
-	
-	
-	
-	
-	 
-	
+	@Override
+	public String toString() {
+		return "Bateau [nom=" + nom + ", tonnage=" + tonnage + ", equipage="
+				+ equipage + "]";
+	}
 }
