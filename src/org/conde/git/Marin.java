@@ -42,6 +42,15 @@ public class Marin{
 	public void setSalaire(String salaire) {
 		this.salaire = salaire;
 	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+	
 	
 	
 }
