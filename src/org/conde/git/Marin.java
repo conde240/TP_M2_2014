@@ -8,6 +8,9 @@ public class Marin{
 	private String prenom;
 	
 	private String salaire;
+	
+	private long id;
+	
 
 	public Marin(String nom, String prenom, String salaire) {
 		super();
